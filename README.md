@@ -79,7 +79,3 @@ This project is proprietary software.
 All Rights Reserved © 2025 Jash Gusani.  
 Unauthorized copying, modification, or distribution is prohibited.
 
----
-
-## 🙏 Thanks
-If you like **gitpusher**, consider giving it a ⭐ on [GitHub](https://github.com/Jashgusani123/Gitpusher)!
