@@ -27,7 +27,8 @@ Now you can run `gitpusher` anywhere.
 ---
 
 ## 🚀 Usage
-
+> ⚠️ **Note:** First-time users need to set a **Google Gemini API Key** if they want to use AI commit messages.  
+> Without it, you can still use your own commit messages normally.
 First time setup in your project:
 ```sh
 git init

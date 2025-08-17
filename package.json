@@ -1,6 +1,6 @@
 {
   "name": "@jashg91/gitpusher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AI powered Git auto commit & pusher",
   "type": "module",
   "main": "bin/cli.js",
@@ -29,12 +29,12 @@
   "license": "proprietary",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jashgusani123/Gitpusher.git"
+    "url": "git+https://github.com/Jashgusani123/Gitpusher_Docs"
   },
   "bugs": {
-    "url": "https://github.com/Jashgusani123/Gitpusher/issues"
+    "url": "https://github.com/Jashgusani123/Gitpusher_Docs/issues"
   },
-  "homepage": "https://github.com/Jashgusani123/Gitpusher#readme",
+  "homepage": "https://github.com/Jashgusani123/Gitpusher_Docs#readme",
   "engines": {
     "node": ">=18"
   },
