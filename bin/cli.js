@@ -3,6 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { doall } from "../lib/git.js";
 import { getApiKeyFromDB } from "../lib/ip.js";
 import { SYSTEM_PROMPT } from "../lib/config.js";  // 👈 Always from config
+import { handleInvalidApiKey } from "../lib/apikey.js";  // 👈 Always from config
 
 // const SYSTEM_PROMPT = `
 // You are an AI Agent that runs Git-related tasks.
