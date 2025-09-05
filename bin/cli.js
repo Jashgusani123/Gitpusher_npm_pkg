@@ -96,6 +96,8 @@ async function main() {
 
   try {
     const parsed = safeJson(aiText);
+    console.log(parsed);
+    
     if (parsed?.content?.action === "doall") {
       const commitMsg = parsed.content.commitMsg || "Auto commit from gitpusher";
       const branch = parsed.content.branch || "";
