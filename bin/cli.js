@@ -66,7 +66,6 @@ async function main() {
   }
 
   const { apiKey } = await getApiKeyFromDB();
-  console.log(apiKey);
   
   if (!apiKey) {
     console.log("❌ No API key found for this IP.");
@@ -87,6 +86,7 @@ async function main() {
   } catch  {
   
     console.error("❌ API key not vaild ");
+    await handleInvalidApiKey()
     process.exit(1);
   }
   
