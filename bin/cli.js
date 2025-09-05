@@ -84,11 +84,9 @@ async function main() {
       ],
       generationConfig: { responseMimeType: "application/json" }
     });
-  } catch  {
-  
-    console.error("❌ API key not vaild ");
-    await handleInvalidApiKey()
-    process.exit(1);
+  } catch {
+    await handleInvalidApiKey();   // 👈 call this
+    process.exit(1); // end process after handling
   }
   
 
