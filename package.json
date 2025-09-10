@@ -1,7 +1,7 @@
 {
   "name": "@jashg91/gitpusher",
-  "version": "1.0.6",
-  "description": "AI powered Git auto commit & pusher",
+  "version": "1.1.0",
+  "description": "🚀 AI-powered Git auto commit & push CLI with smart commit messages",
   "type": "module",
   "main": "bin/cli.js",
   "bin": {
@@ -23,18 +23,25 @@
     "ai",
     "automation",
     "commit",
-    "push"
+    "push",
+    "git-automation",
+    "ai-commits",
+    "conventional-commits",
+    "developer-tools",
+    "terminal-ui",
+    "productivity",
+    "devops"
   ],
   "author": "Jash Gusani",
   "license": "proprietary",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jashgusani123/Gitpusher_Docs"
+    "url": "git+https://github.com/Jashgusani123/Gitpusher_npm_pkg"
   },
   "bugs": {
-    "url": "https://github.com/Jashgusani123/Gitpusher_Docs/issues"
+    "url": "https://github.com/Jashgusani123/Gitpusher_npm_pkg/issues"
   },
-  "homepage": "https://github.com/Jashgusani123/Gitpusher_Docs#readme",
+  "homepage": "https://github.com/Jashgusani123/Gitpusher_npm_pkg#readme",
   "engines": {
     "node": ">=18"
   },
