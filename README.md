@@ -6,9 +6,9 @@
 
 <div align="center">
 
-[![npm version](https://badge.fury.io/js/%40jashg91%2Fgitpusher.svg)](https://badge.fury.io/js/%40jashg91%2Fgitpusher)
-[![Node.js Version](https://img.shields.io/node/v/@jashg91/gitpusher.svg)](https://nodejs.org/)
-[![Downloads](https://img.shields.io/npm/dm/@jashg91/gitpusher.svg)](https://www.npmjs.com/package/@jashg91/gitpusher)
+[![npm version](https://img.shields.io/npm/v/@jashg91/gitpusher?color=brightgreen)](https://www.npmjs.com/package/@jashg91/gitpusher)
+[![Node.js Version](https://img.shields.io/node/v/@jashg91/gitpusher.svg?color=brightgreen)](https://nodejs.org/)
+[![Downloads](https://img.shields.io/npm/dm/@jashg91/gitpusher.svg?color=brightgreen)](https://www.npmjs.com/package/@jashg91/gitpusher)
 
 </div>
 
