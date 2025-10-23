@@ -3,3 +3,6 @@
 *.log
 node_modules/
 .git/
+.gitpusher_config.json
+.gitpusher_keys.json
+.gitpusher_usage_cache.json
