@@ -10,6 +10,7 @@ import { SYSTEM_PROMPT } from "../lib/config.js";
 import { doall } from "../lib/git.js";
 import { handleConfigCommand } from "../lib/configCommand.js";
 import { checkLimit, trackUsage } from "../lib/usageTracker.js";
+import fs from "fs";
 
 const MODEL_ID = "gemini-2.5-flash";
 
@@ -63,7 +64,13 @@ async function getValidApiKey() {
 
 async function main() {
   const args = process.argv.slice(2);
-
+// --- Handle version command ---
+  if (args.includes("--version") || args.includes("-v")) {
+    // Dynamically import package.json to get version
+    const { version } = JSON.parse(fs.readFileSync(new URL("../package.json", import.meta.url)));
+    console.log(chalk.cyan(`\n🚀 GitPusher version: ${version}\n`));
+    return;
+  }
   // Check if user wants to access config
   if (args[0] === "config") {
     await handleConfigCommand();
