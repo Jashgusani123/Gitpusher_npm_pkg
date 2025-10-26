@@ -56,7 +56,7 @@ gitpusher --version
 
 // OR you can use 
 
-gipusher --v
+gipusher -v
 ```
 
 ---
